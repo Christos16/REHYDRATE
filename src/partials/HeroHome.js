@@ -63,7 +63,7 @@ function HeroHome() {
                   <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
                   <path d="M10 17l6-5-6-5z" />
                 </svg>
-                <span className="ml-3 text-white">Watch the full video (2 min)</span>
+                <span className="md:ml-3 ml-1 text-white">Watch the full video (2 min)</span>
               </button>
             </div>
 
@@ -71,7 +71,7 @@ function HeroHome() {
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
               <video controls>
-    <source src="https://drive.google.com/uc?export=download&id=1Dstzsn5GR_pxKRlhAre_WzUFJUKXxEhD" type='video/mp4'/>
+    <source src="https://drive.google.com/uc?export=download&id=1a5dwORI_VnS78CFsRILqqx2Ogaa4ur9I" type='video/mp4'/>
 </video>
               </div>
             </Modal>
